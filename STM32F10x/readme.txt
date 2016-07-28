@@ -1,5 +1,5 @@
-iar version 7.1
-mdk_keil    4.11
+iar version arm 7.1
+mdk_keil    arm 4.11
 
 
 
