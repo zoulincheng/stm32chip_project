@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1674371215</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_acmp.c</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Source\IAR\startup_efm32lg.s</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Source\system_efm32lg.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_adc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_aes.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_assert.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_burtc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_cmu.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_crc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_cryotimer.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_dac.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_dbg.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_dma.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_ebi.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_emu.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_gpio.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_i2c.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_idac.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_int.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_ldma.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_lesense.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_letimer.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_leuart.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_mpu.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_msc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_opamp.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_pcnt.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_prs.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_rmu.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_rtc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_rtcc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_system.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_timer.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_usart.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_vcmp.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_wdog.c</file>
+      <file>$PROJ_DIR$\..\user\driver\em32_uart.c</file>
+      <file>$PROJ_DIR$\..\user\driver\sysprintf.c</file>
+      <file>$PROJ_DIR$\..\utility\common.c</file>
+      <file>$PROJ_DIR$\..\user\EFM32LG230F128\main.c</file>
+      <file>$PROJ_DIR$\..\utility\utility.c</file>
+      <file>$PROJ_DIR$\..\xprintf\xprintf.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xprintf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_opamp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\xprintf.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\utility.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_rtcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_prs.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\common.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_system.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\utility.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_crc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_msc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki_os.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_pcnt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_opamp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_rtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_acmp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_assert.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_dac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_letimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_msc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_mpu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_system.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_vcmp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_aes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_rtcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_dac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_cmu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_cryotimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_lesense.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_ldma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_crc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_efm32lg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_idac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_prs.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_wdog.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_rmu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_efm32lg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_pcnt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_efm32lg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_burtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\contiki_os.out</file>
+      <file>$PROJ_DIR$\Debug\Exe\contiki_os.bin</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_cmu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_dbg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_aes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_cryotimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_burtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_assert.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_int.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_acmp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysprintf.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysprintf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em32_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_mpu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em32_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_vcmp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_wdog.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_int.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_dma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_letimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_rmu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_emu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_leuart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_ebi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_rtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_leuart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_emu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_lesense.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_ebi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_i2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_idac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_ldma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_dbg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_dma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\em_timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_rmu.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_lesense_st.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_emu.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_adc.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_lesense_ch.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_lesense_buf.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_dac.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_burtc_ret.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_burtc.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_wdog.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_etm.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_devinfo.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_dma_descriptor.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_romtable.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_calibrate.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_dmareq.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_dmactrl.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_af_ports.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_af_pins.h</file>
+      <file>$PROJ_DIR$\..\em32\cmsis\include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_dma_ch.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\em32\cmsis\include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\em_device.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\system_efm32lg.h</file>
+      <file>$PROJ_DIR$\..\em32\cmsis\include\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_msc.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg230f128.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_aes.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_lesense.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_usart.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_timer_cc.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_timer.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_acmp.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_leuart.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_rtc.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_letimer.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_pcnt.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_i2c.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_gpio_p.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_gpio.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_vcmp.h</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Include\efm32lg_prs_ch.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_acmp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Source\IAR\startup_efm32lg.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Source\system_efm32lg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 131 128 135 129 130 134 132 159 164 162 155 160 157 158 161 156 165 163 138 136 137 141 140 166 167 168 169 170 171 172 173 174 175 176 177 178 179 139 142 143 144 145 146 148 147 149 150 151 152 153 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_burtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_cmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_cryotimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_dbg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_ebi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_emu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_idac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_ldma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_lesense.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_letimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_leuart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_mpu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_msc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_opamp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_pcnt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_prs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_rmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_rtcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_vcmp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_wdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\user\driver\em32_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\user\driver\sysprintf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\utility\common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\user\EFM32LG230F128\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\utility\utility.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\xprintf\xprintf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\contiki_os.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_acmp.c</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Source\IAR\startup_efm32lg.s</file>
+      <file>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Source\system_efm32lg.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_adc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_aes.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_assert.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_burtc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_cmu.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_crc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_cryotimer.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_dac.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_dbg.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_dma.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_ebi.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_emu.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_gpio.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_i2c.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_idac.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_int.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_ldma.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_lesense.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_letimer.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_leuart.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_mpu.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_msc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_opamp.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_pcnt.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_prs.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_rmu.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_rtc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_rtcc.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_system.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_timer.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_usart.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_vcmp.c</file>
+      <file>$PROJ_DIR$\..\em32\emlib\src\em_wdog.c</file>
+      <file>$PROJ_DIR$\..\utility\utility.c</file>
+      <file>$PROJ_DIR$\..\xprintf\xprintf.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\ctimer.c</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\autostart.c</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\arg.c</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\energest.c</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\etimer.c</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\process.c</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\procinit.c</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\rtimer.c</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\stimer.c</file>
+      <file>$PROJ_DIR$\..\contiki\core\sys\timer.c</file>
+      <file>$PROJ_DIR$\..\contiki\cpu\EFM32LG230F128\clock.c</file>
+      <file>$PROJ_DIR$\..\contiki\cpu\EFM32LG230F128\em32_uart.c</file>
+      <file>$PROJ_DIR$\..\contiki\cpu\EFM32LG230F128\sysprintf.c</file>
+      <file>$PROJ_DIR$\..\xprintf\xprintf.h</file>
+      <file>$PROJ_DIR$\..\contiki\platform\EFM32LG230F128\contiki-main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$PROJ_DIR$\..\contiki\platform\EFM32LG230F128\em32lg_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Release\Obj\em_dbg.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_dma.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_emu.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\arg.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_ebi.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_efm32lg.o</file>
+      <file>$PROJ_DIR$\Release\Obj\xprintf.o</file>
+      <file>$PROJ_DIR$\Release\Obj\system_efm32lg.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\autostart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ctimer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em32flash.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\rtimer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stimer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\procinit.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\etimer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em32_uart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\energest.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_acmp.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\contiki_os.out</file>
+      <file>$PROJ_DIR$\Release\Obj\xprintf.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\utility.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_timer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_wdog.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_vcmp.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_aes.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_system.pbi</file>
+      <file>$PROJ_DIR$\..\contiki\cpu\EFM32LG230F128\em32flash.c</file>
+      <file>$PROJ_DIR$\Release\Obj\em_usart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_rtcc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_rtc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_rmu.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_assert.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_prs.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_pcnt.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_opamp.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_adc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_msc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\contiki-main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_mpu.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_burtc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_leuart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_letimer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\sysprintf.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_lesense.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_ldma.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_cmu.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_int.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_crc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_idac.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_cryotimer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_i2c.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_dac.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\em_gpio.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_acmp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Source\IAR\startup_efm32lg.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\Device\SiliconLabs\EFM32LG\Source\system_efm32lg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 41 38 45 39 40 44 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_burtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_cmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_cryotimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_dbg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_ebi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_emu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_idac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 41 38 45 39 40 44 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_ldma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_lesense.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_letimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_leuart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_mpu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_msc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_opamp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_pcnt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_prs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_rmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_rtcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_vcmp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\em32\emlib\src\em_wdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\utility\utility.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 41 38 45 39 40 44 42 62 65 64 70 73 68 71 67</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\xprintf\xprintf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59 63 41 38 45 39 40 44 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\ctimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\autostart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\arg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\energest.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\etimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\process.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 41 38 45 39 40 44 42 73 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\procinit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\rtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\stimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\core\sys\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\cpu\EFM32LG230F128\clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\cpu\EFM32LG230F128\em32_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\cpu\EFM32LG230F128\sysprintf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 41 38 45 39 40 44 42 61 62 65 64 70 73 68 71 67</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\platform\EFM32LG230F128\contiki-main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\contiki\cpu\EFM32LG230F128\em32flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 41 38 45 39 40 44 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
