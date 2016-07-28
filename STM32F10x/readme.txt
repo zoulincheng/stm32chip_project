@@ -1,3 +1,8 @@
+iar version 7.1
+mdk_keil    4.11
+
+
+
 解决办法1:
 用IAR6.3打开IAR6.0 的工程，编译的时候出现提示错误：
 extern uint32_t __get_PSP(void); 已经在C:\Program Files\IAR Systems\Embedded Workbench 6.0\arm\inc\c\intrinsics.h文件中定义
