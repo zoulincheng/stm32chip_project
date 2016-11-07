@@ -1,0 +1,9 @@
+.\objects\autostart.o: ..\..\contiki\core\sys\autostart.c
+.\objects\autostart.o: ..\..\contiki\core\sys/autostart.h
+.\objects\autostart.o: ..\..\contiki\core\sys/process.h
+.\objects\autostart.o: ..\..\contiki\core\sys/pt.h
+.\objects\autostart.o: ..\..\contiki\core\sys/lc.h
+.\objects\autostart.o: ..\..\contiki\core\sys/lc-switch.h
+.\objects\autostart.o: ..\..\contiki\core\sys/cc.h
+.\objects\autostart.o: ..\..\contiki\plantform\stm32f030\contiki-conf.h
+.\objects\autostart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

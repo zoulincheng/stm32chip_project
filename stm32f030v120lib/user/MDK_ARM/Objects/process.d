@@ -1,0 +1,10 @@
+.\objects\process.o: ..\..\contiki\core\sys\process.c
+.\objects\process.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\process.o: ..\..\contiki\core\sys/process.h
+.\objects\process.o: ..\..\contiki\core\sys/pt.h
+.\objects\process.o: ..\..\contiki\core\sys/lc.h
+.\objects\process.o: ..\..\contiki\core\sys/lc-switch.h
+.\objects\process.o: ..\..\contiki\core\sys/cc.h
+.\objects\process.o: ..\..\contiki\plantform\stm32f030\contiki-conf.h
+.\objects\process.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\process.o: ..\..\contiki\core\sys/arg.h

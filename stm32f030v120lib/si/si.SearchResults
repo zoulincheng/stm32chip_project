@@ -1,0 +1,7 @@
+---- SystemInit Matches (6 in 3 files) ----
+Startup_stm32f030x8.s (startup):        IMPORT  SystemInit  
+Startup_stm32f030x8.s (startup):                 LDR     R0, =SystemInit
+System_stm32f0xx.c (cmsis\src):  *      - SystemInit(): This function is called at startup just after reset and 
+System_stm32f0xx.c (cmsis\src):  *    Then SystemInit() function is called, in "startup_stm32f0xx.s" file, to
+System_stm32f0xx.c (cmsis\src):void SystemInit(void)
+System_stm32f0xx.h (cmsis\inc):extern void SystemInit(void);
